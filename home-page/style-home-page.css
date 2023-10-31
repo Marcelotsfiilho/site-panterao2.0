@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+:root{
+    --primary-color: #090E17;
+}
+.logo-cabecalho{
+    width: 176px;
+    height: 84px;
+}
+.container-fluid{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: #2D7EA3;
+}
+.text-cabecalho{
+    display: flex;
+    gap: 60px;
+    font-weight: 400;
+    font-size: 15px;
+}
+.dropdoen-toggle{
+    color: #2D7EA3;
+}
+.nav-link{
+    color: white;
+}
+.dropdown-menu{
+    background-color: #090E17;
+}
+.dropdown-divider{
+    background-color: #29779D;
+}
+.dropdown-item{
+    color: white;
+}
+.body{
+    font: 100%;
+    background-color: #1E222D;
+}
+.plano-home{
+    height: 720px;
+    width: 1440px;
+    display: flex;
+}
