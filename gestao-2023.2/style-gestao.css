@@ -53,14 +53,21 @@ section{
 .dropdown-item{
     color: white;
 }
+
 /* body */
 .body{
     font: 100%;
     background-color: #D9D9D9;
 }
+.body h1{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
 .plano-gestao-fluid{
     height: 40vw;
     width: 100%;
+    filter: brightness(70%);
 }
 .texto-missao{
     padding-left: 216px;
@@ -114,7 +121,7 @@ section{
     flex-direction: column;
 }
 .box-membro{
-    padding-top: 50px;
+    padding-top: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -130,8 +137,8 @@ section{
 }
 .texto-membro{
     padding-top: 30px;
-    width: 206px;
-    height: 62px;
+    width: 216px;
+    height: 82px;
     flex-shrink: 0;
     color: #000;
     text-align: center;
@@ -141,19 +148,17 @@ section{
     font-weight: 400;
     line-height: normal;
 }
-
-
-
-
-
+.espacamento{
+    height: 160px;
+}
 
 /* rodape */
 .rodape{
-    background-color: var(--cabecalho-color);
+    background-color: #D4D4D4;
     margin: none;
 }
 .texto-rodape{
-    color: var(--text-rodape-color);
+    color: var(--background-color);
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
@@ -162,7 +167,7 @@ section{
 }
 .linha-rodape{
     width: 100%;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid var(--background-color);
 }
 .logo-rodape{
     width: 87px;
@@ -172,4 +177,10 @@ section{
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+.icones{
+    padding-right: 21px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
